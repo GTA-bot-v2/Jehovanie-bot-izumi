@@ -14,9 +14,9 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["61555963733226"];
+    const permission = ["61566713853703"];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("𝗱⃪𝗲⃪𝘀⃪𝗼⃪𝗹⃪𝗲⃪ 𝘀⃪𝗲⃪𝘂⃪𝗹⃪ 𝗺⃪𝗼⃪𝗻⃪ 𝗰⃪𝗿⃪𝗲⃪𝗮⃪𝘁⃪𝗲⃪𝘂⃪𝗿⃪ 𝗮⃪ 𝗱⃪𝗿⃪𝗼⃪𝗶⃪𝘁⃪ 𝗮⃪ 𝘂⃪𝘁⃪𝗶⃪𝗹⃪𝗶⃪𝘀⃪𝗲⃪ 𝗰⃪'𝗲⃪𝘀⃪𝘁⃪ 𝗰⃪𝗺⃪𝗱⃪ 🜋 𝗢𝗹𝗶𝘃𝗲𝗿 𝗴𝗮𝗯𝗿𝗶𝗲𝗹 🜋 ", event.threadID, event.messageID);
+      return api.sendMessage("cette commande est interdite aux petits comme toi -18 ans🔞 ", event.threadID, event.messageID);
     }
     
     const fileName = args[0];
